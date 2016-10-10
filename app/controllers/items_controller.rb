@@ -1,6 +1,8 @@
 class ItemsController < ApplicationController
   def home
-    @items = Item.all
+    @hats = Item.find_by_kind(0)
+    @shirts = Item.find_by_kind(1)
+    @pants = Item.find_by_kind(2)
   end
 
   def cart
