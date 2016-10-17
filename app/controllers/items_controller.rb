@@ -3,7 +3,7 @@ class ItemsController < ApplicationController
     @hat_one = Item.find_by_name("Hat 1")
     @hat_two = Item.find_by_name("Hat 2")
     @hat_three = Item.find_by_name("Hat 3")
-    
+
   end
 
   def cart
@@ -31,6 +31,7 @@ class ItemsController < ApplicationController
       # If save fails, redisplay the form so user can fix problems
       render('new')
     end
+
 end
 
 private

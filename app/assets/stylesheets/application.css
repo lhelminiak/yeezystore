@@ -26,3 +26,21 @@
   width: 100px;
   height: 100px;
 }
+.container.containerrow{
+  margin-top: -2.4%;
+  width: 100%;
+}
+.navbar{
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+.row.row1{
+  background-color: #001a33;
+}
+.row.row2{
+  background-color: #003366;
+}
+.row.row3{
+background-color: #001a33;
+}
